@@ -286,6 +286,7 @@ h6 {
   height: 100vh;
   background: url("../img/Factory Obscura Photo.jpg") top right no-repeat;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
 
@@ -445,6 +446,11 @@ section {
 
 .indent {
   text-indent: 30px;
+}
+
+.about .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
 }
 
 /*--------------------------------------------------------------
