@@ -219,11 +219,11 @@
    */
   new Swiper('.portfolio-details-slider', {
     speed: 400,
-    loop: true,
-    autoplay: {
+    loop: false,
+    /*autoplay: {
       delay: 5000,
       disableOnInteraction: true
-    },
+    },*/
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
@@ -235,10 +235,10 @@
    * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
-    speed: 600,
+    speed: 400,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 10000,
       disableOnInteraction: true
     },
     slidesPerView: 'auto',
