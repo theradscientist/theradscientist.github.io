@@ -135,6 +135,27 @@
     });
   }
 
+ /**
+   * Loading Bar Preloader
+   */
+  document.addEventListener("DOMContentLoaded", () => {
+    const progressElement = document.getElementById("progress");
+
+    // Simulate backend loading progress
+    let progress = 0;
+
+    const interval = setInterval(() => {
+        // Simulate progress update from backend
+        progress += 10;
+        if (progress > 100) {
+            progress = 100;
+            clearInterval(interval);
+        }
+        // Update progress bar width
+        progressElement.style.width = progress + "%";
+    }, 500);
+  });
+
   /**
    * Hero type effect
    */
