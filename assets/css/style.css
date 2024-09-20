@@ -130,7 +130,7 @@ h6 {
   background-color: #FFFFFF;
 }
 .loader-container {
-	width: 600px;
+	width: calc(50% - 30px);
 	height: 200px;
 	position: absolute;
 	top:0;
