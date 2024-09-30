@@ -139,7 +139,7 @@
 
   /**
      * Loading Bar
-     */
+     
   var progress = setInterval(function () {
     var $bar = $("#bar");
   
@@ -157,7 +157,7 @@
   $(window).load(function () {
     $("#bar").width(600);
     $(".loader").fadeOut(1000);
-  });
+  }); */
   
 
   /**
